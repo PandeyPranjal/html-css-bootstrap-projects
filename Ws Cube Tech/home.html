@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/20c5dc237a.js" crossorigin="anonymous"></script>
+    <title>Ws Cube Tech</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/logo.svg" type="image/x-icon">
+</head>
+
+<body>
+    <!--  Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Download Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="bannerForm p-3 ">
+                        <h2>Download Confirmation</h2>
+                        <p>This document will download into the Chrome</p>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class=" mb-3">
+                            <label class="form-label"> Phone</label>
+
+                            <div class="input-group ">
+                                <span class="input-group-text">+91</span>
+                                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Phone">
+
+                            </div>
+                            <div class="mt-4">
+                                <button>Register Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- modal-2 for booking Demo -->
+    <div class="modal fade" id="demoNow" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Enquire Now</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="" class="bannerForm p-3 ">
+                        <h2>Book Your Free Class Now</h2>
+                        <p>2 days of free demo classes without paying in advance!</p>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+
+
+                        <div class=" mb-3">
+                            <label class="form-label"> Phone</label>
+
+                            <div class="input-group">
+                                <span class="input-group-text">+91</span>
+                                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Phone">
+
+                            </div>
+                            <div class="mt-4">
+                                <button>Register Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <header class="container-fluid py-2 shadow-lg position-sticky bg-light top-0 ">
+        <div class="container">
+            <div class="row align-items-center">
+                <figure class="col-lg-6  mb-0 pb-0">
+                    <img class="logo" src="images/logo.svg" alt="">
+                </figure>
+                <div class="col-lg-6  btn-outer d-flex justify-content-end gap-4">
+
+                    <div><button class="btn btn-outline-success whatsappbtn"> <i class="fa-brands fa-whatsapp"></i> chat
+                            with us </button>
+                        <button class="btn btn-primary call"> <i class="fa-solid fa-phone"></i> call us</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="container-fluid py-lg-5 py-sm-4 py-3">
+
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 bannerContent">
+                    <h1>Career Oppertunities in <span>Digital Marketing</span></h1>
+                    <p>Digital marketing course so good, you only pay-after-placement</p>
+                    <ul class="m-0 p-0">
+                        <li class="mb-2"> <i class="fa-solid fa-circle-check"></i> Specialization: Performance Marketing
+                        </li>
+                        <li class="mb-2"> <i class="fa-solid fa-circle-check"></i> Min Salary of 4.5 LPA</li>
+                        <li class="mb-2"> <i class="fa-solid fa-circle-check"></i> 50 seats only</li>
+                    </ul>
+                    <div class="bannerContentBtn d-flex gap-4">
+                        <button data-bs-toggle="modal" data-bs-target="#demoNow">Book 2 Days Demo</button>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop"><i
+                                class="fa-solid fa-download"></i> Download Curriculum</button>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <form action="" class="bannerForm shadow-lg ">
+                        <h2>Book Your Free Class Now</h2>
+                        <p>2 days of free demo classes without paying in advance!</p>
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email </label>
+                            <input type="email" class="form-control" id="exampleFormControlInput2"
+                                placeholder="name@example.com">
+                        </div>
+
+                        <div class=" mb-3">
+                            <label class="form-label"> Phone</label>
+
+                            <div class="input-group">
+                                <span class="input-group-text">+91</span>
+                                <input type="text" class="form-control" id="floatingInputGroup1" placeholder="Phone">
+
+                            </div>
+                            <div class="mt-4">
+                                <button>Register Now</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div class="container shadow-lg mt-5 ">
+            <div class="row p-4 counterSection">
+                <div class="col">
+                    <h1>1000+</h1>
+                    <p> students trained</p>
+                </div>
+                <div class="col">
+                    <h1>R 4.5 LPA</h1>
+                    <p>Students Trained</p>
+                </div>
+                <div class="col">
+                    <h1>320+</h1>
+                    <p>Recruiting Partners</p>
+                </div>
+                <div class="col">
+                    <h1>10:00 AM</h1>
+                    <p>Program Timings</p>
+                </div>
+                <div class="col">
+                    <h1>11th May</h1>
+                    <p>Next Batch Starts</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class=" container-fluid highlights-section py-5 shadow-lg">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h2>Key Highlights of the Course</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat, doloribus laudantium!</p>
+                </div>
+            </div>
+
+
+            <div class="row gy-4 align-items-center">
+
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-folder"></i></p>
+                        <div>
+                            <h4>Assignments & <br>Module Tests</h4>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-star"></i></p>
+                        <div>
+                            <h4>Industry Recognized<br>Certification</h4>
+                            <p>Stand out to your professional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-video"></i></p>
+                        <div>
+                            <h4>Live Classes & <br>Recorded Lectures</h4>
+                            <p>Best of both worlds of learning </p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-download"></i></p>
+                        <div>
+                            <h4>Downloadable <br>Content</h4>
+                            <p>With lifetime access</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-folder"></i></p>
+                        <div>
+                            <h4>6 Industry Level <br>Projects</h4>
+                            <p>Get practical skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white p-1 highlightItems align-items-start d-flex gap-5">
+                        <p><i class="fa-solid fa-rocketchat"></i></p>
+                        <div>
+                            <h4>4 Live Doubt Clearing <br>Sessions</h4>
+                            <p>Gain a clear understanding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="highlightsButton d-flex justify-content-center">
+                <button class=" py-3 my-5 px-5 ">Book Free Class</button>
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid marketing-section py-5 bg-white">
+        <div class="container">
+             <div class="row text-center py-5">
+                <h1 >Top career options in <br>Digital Marketing</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, sapiente ipsam!</p>
+            </div>
+            <div class="row  g-4">
+                <div class="digitalMarketing col-lg-3 col-sm-6 shadow ">
+                    <div class="marketingImages p-4">
+                        <p><i class="fa-solid fa-pen-to-square"></i></p>
+                        <h3>Content Marketer</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. voluptatibus consectetur
+                            reprehenderit laudantium, saepe ab harum.</p>
+                    </div>
+
+                </div>
+                <div class="digitalMarketing col-lg-3 col-sm-6 shadow">
+                    <div class="marketingImages p-4">
+                        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+                        <h3>SEO Specialist</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. voluptatibus consectetur onsectetur adipisicing elit. voluptatibus consectetur
+                            reprehenderit laudantium, saepe ab harum.</p>
+                    </div>
+
+                </div>
+                <div class="digitalMarketing col-lg-3 col-sm-6 shadow">
+                    <div class="marketingImages p-4">
+                        <p><i class="fa-solid fa-people-group"></i></p>
+                        <h3>Social Media Manager</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur  adipisicing elit. voluptatibus consectetur  adipisicing elit. voluptatibus consectetur
+                            reprehenderit laudantium, saepe ab harum.</p>
+                    </div>
+
+                </div>
+                <div class=" digitalMarketing col-lg-3 col-sm-6 shadow">
+                    <div class="marketingImages p-4">
+                        <p><i class="fa-brands fa-facebook-messenger"></i></p>
+                        <h3>Marketing Analyst</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur corrupti itaque,
+                            voluptatibus consectetur reprehenderit laudantium, saepe ab harum.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- certification section  -->
+    <section class="certification conatiner-fluid my-5">
+        <div class="container">
+           
+            <div class="row py-5 my-4  align-items-center">
+                <div class="col-lg-6  ">
+                    <div class="certificationContent my-5">
+                        <h1>Get Certified</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae quis, odio provident
+                            omnis id
+                            dolor ipsa natus nesciunt? Ut quia assumenda quas.</p>
+                    </div>
+                    <div class="cer-rows d-flex flex-column gap-5">
+                        <div
+                            class="d-flex gap-3 justify-content-flex-start align-items-center certification-line bg-light ">
+                            <div class="certificationLinks gx-5">
+                                <p><i class="fa-brands fa-instagram p-4"></i></p>
+                            </div>
+                            <div class="gx-3">
+                                <h3>Official and Verified</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt ut.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex gap-3 justify-content-flex-start align-items-center certification-line bg-light ">
+                            <div class="certificationLinks gx-5">
+                                <p><i class="fa-solid fa-paper-plane p-4"></i></p>
+                            </div>
+                            <div class="gx-3">
+                                <h3>Easily Shareable</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt ut.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="d-flex gap-3 justify-content-flex-start align-items-center certification-line bg-light ">
+                            <div class="certificationLinks gx-5">
+                                <p><i class="fa-brands fa-facebook-messenger p-4"></i></p>
+                            </div>
+                            <div class="gx-3">
+                                <h3>Career Shifting</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem, nesciunt ut.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <button class="certificationButton m-5 px-5 py-3">Book Free Class</button>
+
+
+                </div>
+                <div class="col-lg-6  d-flex justify-content-end certificationImage">
+                    <img src="https://courses.wscubetech.com/s/pages/assets/images/certificate_2.gif" alt=""
+                        class="img-fluid ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- digital marketing  -->
+    <section class="container-fluid">
+        <div class="container my-5 p-5 bg-light ">
+            <div class="row curriculum">
+                <div class="text-center">
+                    <h1>Curriculam of Digital Marketing</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos.</p>
+                </div>
+                <div class="tabbings">
+                    <nav>
+                        <div class="nav nav-tabs my-tabbings" id="nav-tab" role="tablist">
+                            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home"
+                                aria-selected="true">Introduction</button>
+                            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile"
+                                aria-selected="false">Case Studies</button>
+                            <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact"
+                                aria-selected="false">Google AdSense</button>
+                            <button class="nav-link" id="nav-seo-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-seo" type="button" role="tab" aria-controls="nav-seo"
+                                aria-selected="false">SEO Mastery</button>
+                            <button class="nav-link" id="nav-analic-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-analic" type="button" role="tab" aria-controls="nav-analic"
+                                aria-selected="false">Google Analytics</button>
+                            <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-bchain" type="button" role="tab" aria-controls="nav-bchain"
+                                aria-selected="false">Block-Chain</button>
+                            <button class="nav-link" id="nav-more-tab" data-bs-toggle="tab"
+                                data-bs-target="#nav-more" type="button" role="tab" aria-controls="nav-more"
+                                aria-selected="false">   See More</button>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active " id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab" tabindex="0">
+                            <div class="listed-items d-flex">
+                                <div >
+                                    <ul>
+                                        <li><i class="fa-regular fa-circle-check"></i>
+                                            What is Digital Marketing </li>
+                                        <li><i class="fa-regular fa-circle-check"></i>
+                                            Requiremet of Digital Marketing </li>
+                                        <li><i class="fa-regular fa-circle-check"></i>
+                                            Digital Marketing for Working professionals </li>
+                                        <li><i class="fa-regular fa-circle-check"></i>
+                                            Job Oppertunities is Digital Marketing
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div>
+                                    <ul>
+                                        <li><i class="fa-regular fa-circle-check"></i>
+                                        Scope of Digital Marketing
+                                    </li>
+                                    <li><i class="fa-regular fa-circle-check"></i> 
+                                        Latest Trends in Digital Marketing
+                                    </li>
+                                    <li><i class="fa-regular fa-circle-check"></i> 
+                                        Digital Marketing for Small, Medium and Large Businesses
+                                    </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                            tabindex="0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam molestiae, non voluptas sint possimus cum doloremque odit, veniam ex quae debitis voluptates tenetur. Eligendi eveniet modi aliquam? Iste sed debitis eveniet! Consectetur fuga sapiente maxime, quasi, cum ut sed voluptates iste nam maiores quaerat, debitis consequatur animi laboriosam quas voluptas eos commodi neque voluptatum. Repellendus.</div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab"
+                            tabindex="0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem vel eius aliquid molestiae, ea ipsam perferendis, molestias modi voluptatem quisquam aliquam, asperiores eligendi esse consequatur ex. Similique recusandae voluptatem cumque eveniet error enim tenetur. Nostrum saepe repudiandae maxime autem voluptatibus. Magni vel nobis facere laudantium, explicabo dolorum architecto, dignissimos harum cumque laboriosam molestias mollitia ab repellat officia quod et sed, cum ad vero sit neque corporis tempora natus voluptatem. Doloribus porro modi voluptates saepe inventore adipisci accusamus minus nemo quos, tenetur molestias fugit delectus distinctio possimus. Facilis, illum.</div>
+                        <div class="tab-pane fade" id="nav-seo" role="tabpanel" aria-labelledby="nav-seo-tab"
+                            tabindex="0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias incidunt eum ratione consectetur cum, reprehenderit nisi quam id iure consequuntur, recusandae aut sit commodi reiciendis provident eos aliquam harum tempore quia, vitae tenetur voluptas deleniti nesciunt cumque. Doloremque ipsa, obcaecati numquam quo id quaerat perspiciatis nisi labore, molestiae suscipit inventore blanditiis ab veniam. Neque, molestias. Sint similique possimus quos in odit praesentium rerum animi deleniti labore beatae quas omnis officia voluptas sunt ipsam architecto accusantium, sapiente nam repellendus cumque qui corrupti dolor. Saepe, rerum, amet dolores illum, repudiandae animi doloremque totam expedita veniam dolor in. Iure nostrum odio odit autem! </div>
+                        <div class="tab-pane fade" id="nav-analic" role="tabpanel" aria-labelledby="nav-analic-tab"
+                            tabindex="0">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt iste recusandae dolor, necessitatibus ipsam repellat explicabo, nulla illo, maiores sequi modi? Fugit consequuntur quidem provident explicabo debitis molestiae cumque ea dolore quas delectus perspiciatis, sint pariatur magnam natus saepe beatae a culpa hic, porro minus veniam at! Dolor aperiam quibusdam velit placeat, provident ratione inventore accusantium iure perspiciatis similique sint illo, atque dolore facere. Natus quos corrupti dolor molestias illo molestiae? Reiciendis odio doloribus, omnis temporibus illum odit sapiente. Officia, consectetur unde? Praesentium eligendi voluptatem temporibus? Eius, ipsa nisi recusandae quisquam libero totam, quia facilis repellat non eaque nemo sequi! </div>
+                        <div class="tab-pane fade" id="nav-bchain" role="tabpanel" aria-labelledby="nav-bchain-tab"
+                            tabindex="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ut natus unde fugit vel assumenda sequi soluta nemo optio minima iure dignissimos perferendis blanditiis rerum magnam necessitatibus quisquam, praesentium quam. Et facilis maiores praesentium dolore laboriosam quisquam possimus quaerat hic iusto distinctio iste, explicabo impedit. Magnam eligendi obcaecati explicabo architecto, deleniti perferendis accusamus quidem aliquid esse ad eos corrupti dignissimos iste, impedit aut necessitatibus atque voluptatum reiciendis. Amet, adipisci aliquam suscipit maiores doloribus sapiente dolorem molestias aliquid saepe reprehenderit quaerat fugiat repellendus et neque doloremque tenetur laborum iusto, repellat voluptatum corrupti odit alias. Modi veniam nostrum ad, iusto cupiditate corrupti? </div>
+                        <div class="tab-pane fade" id="nav-more" role="tabpanel" aria-labelledby="nav-more-tab"
+                            tabindex="0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic, ut natus unde fugit vel assumenda sequi soluta nemo optio minima iure dignissimos perferendis blanditiis rerum magnam necessitatibus quisquam, praesentium quam. Et facilis maiores praesentium dolore laboriosam quisquam possimus quaerat hic iusto distinctio iste, explicabo impedit. Magnam eligendi obcaecati explicabo architecto, deleniti perferendis accusamus quidem aliquid esse ad eos corrupti dignissimos iste, impedit aut necessitatibus atque voluptatum reiciendis. Amet, adipisci aliquam suscipit maiores doloribus sapiente dolorem molestias aliquid saepe reprehenderit quaerat fugiat repellendus et neque doloremque tenetur laborum iusto, repellat voluptatum corrupti odit alias. Modi veniam nostrum ad, iusto cupiditate corrupti? </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center"> <button class="py-3 px-3  my-5 curriculumButton">Download Curriculum</button>
+            </div>
+        </div>
+
+    </section>
+    <!-- why learn digi-marketing  -->
+    <section class="container-fluid whyDigi">
+        <div class="container my-5 py-5">
+            <div class="row ">
+                <div>
+                    <h1>Why Learn Digital Marketing</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, illo vero.</p>
+                </div>
+                <div class="d-flex gap-3 py-4 my-5">
+                    
+                    <div class="col-lg-4 bg-light whyDigi-boxes">
+                        <p><i class="fa-solid fa-user-group "></i></p>
+                        <h3>Learn from Industry Experts</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum dolore sapiente quos excepturi, nostrum nam magni mollitia repudiandae, odit dolorem minima. </p>
+                    </div>
+                    <div class="col-lg-4 bg-light">
+                        <p><i class="fa-solid fa-desktop  "></i></p>
+                        <h3>Structured & Latest Curriculum</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque ea voluptatum expedita numquam esse minus corporis nostrum deleniti. Tempore fugit repellendus modi! </p>
+                    </div>
+                    <div class="col-lg-4 bg-light">
+                        <p><i class="fa-solid fa-circle-play"></i></p>
+                        <h3>Highly-Engaging Live Classes</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet mollitia aliquid modi quia doloremque pariatur saepe fugit minus perspiciatis odio? Voluptate, pariatur? </p>
+                    </div>
+                </div>
+                <div class="d-flex gap-3 py-4 my-5 whyDigi-boxes">
+                    <div class="col-lg-4 bg-light">
+                        <p><i class="fa-solid fa-file-lines "></i></p>
+                        <h3>Work on Real Projects</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestiae, quasi velit et temporibus magni expedita placeat quidem? Accusantium quibusdam debitis repellendus? </p>
+                    </div>
+                    <div class="col-lg-4 bg-light">
+                        <p><i class="fa-solid fa-id-card px-3 pt-4"></i></p>
+                        <h3>100% Job Assistance</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, quae ipsa. Voluptatum expedita et omnis explicabo ex est? Placeat, pariatur sapiente. Possimus.</p>
+                    </div>
+                    <div class="col-lg-4 bg-light">
+                        <p><i class="fa-solid fa-certificate px-3 pt-4"></i></p>
+                        <h3>Get Certification</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores reiciendis sed accusamus ab doloribus nam cum perspiciatis totam. Commodi officia perferendis molestiae?</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <button class="py-4 px-5 whyButton">Book Free Class</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="container py-5 bg-light">
+            <div class="row my-3 what">
+                <div class="students text-center">
+                    <h1>What Our Students <br> Are Saying!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nisi ea blanditiis recusandae
+                        deleniti magni reiciendis consequuntur error. Dolores accusamus est eos.</p>
+
+                </div>
+                <div class="d-flex my-3  justify-content-between  py-5  gap-5 mb-1 ">
+                    <div class="col-lg-5 col-sm-2 shadow-lg p-3 ">
+                        <div class="profile d-flex align-items-center ">
+                            <div><img src="images/profile1.png" alt=""></div>
+                            <div class="dob "><h4>Matt Common</h4>
+                            <p>November 25, 1997</p></div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit odit rerum
+                            eveniet nobis laborum autem quia sunt. Vero accusamus, quos nihil illum, incidunt
+                            laboriosam excepturi assumenda reprehenderit harum hic magni consequuntur provident,
+                            pariatur minus voluptates totam minima unde a deleniti? Natus, eos.</div>
+                    </div>
+                    <div class="col-lg-5 p-3 col-sm-2 shadow-lg">
+                        <div class="profile d-flex align-items-center">
+                            <div><img src="images/profile2.png" alt=""></div>
+                            <div class="dob"><h4>Matt Common</h4>
+                            <p>September 4, 1998</p></div>
+                        </div>
+                        <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti suscipit odit repellat
+                            rerum eveniet nobis laborum autem quia sunt. Vero accusamus, quos nihil illum, incidunt
+                            laboriosam excepturi assumenda reprehenderit harum hic magni consequuntur provident,
+                            pariatur minus voluptates totam minima unde a deleniti? Natus, eos.</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid">
+        <div class="container  ReadyClass">
+            <div class="row text-center my-4 py-5">
+                <h2>Are You Ready to Start <br>Your Course?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, minima nobis?</p>
+                <div class="readyButton my-4"><button class=" py-3 px-4">Book Free Class</button></div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid">
+        <div class="container my-4">
+            <div class="row py-4 faqs">
+                <div class="text-center">
+                    <h2>Digital Marketing Course <br> FAQs</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est saepe, totam, quod facere voluptate
+                        quisquam temporibus nihil sunt consectetur provident itaque! Doloremque?</p>
+                </div>
+                <div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Accordion Item #1
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the first item’s accordion body.</strong> It is shown by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Accordion Item #2
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the second item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Accordion Item #3
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <strong>This is the third item’s accordion body.</strong> It is hidden by default,
+                                    until the collapse plugin adds the appropriate classes that we use to style each
+                                    element. These classes control the overall appearance, as well as the showing and
+                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
+                                    our default variables. It’s also worth noting that just about any HTML can go within
+                                    the <code>.accordion-body</code>, though the transition does limit overflow.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center faqs"><button class="py-3 px-4 my-5">Book Free Class</button></div>
+
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid ">
+        <div class="container">
+            <div class="row py-4 companies-logo">
+                <div class="text-center">
+                    <h2>Top Companies Hiring Digital Marketing in India</h2>
+                </div>
+                
+            </div>
+            <div class="row g-3 align-items-center">
+                <div class="col-sm-2"><img src="images/logo1.png" class="img-fluid" alt=""></div>
+                <div class="col-sm-2">
+                    <img src="https://images.seeklogo.com/logo-png/34/2/redbus-logo-png_seeklogo-347983.png" class="img-fluid" alt="">
+                </div>
+                <div class="col-sm-2">
+                    <img src="https://damassets.autodesk.net/content/dam/mgs/mgs/brand-elements/autodesk logo/logo-formats-4colorR1-1378x400.jpg" alt="" class="img-fluid"></div>
+                <div class="col-sm-2"><img src="https://sellonboard.com/wp-content/uploads/2021/09/instamojo.png" class="img-fluid" alt=""></div>
+
+                <div class="col-sm-2"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Infosys_logo.svg/1280px-Infosys_logo.svg.png" class="img-fluid" alt=""></div>
+                <div class="col-sm-2"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Wipro_Primary_Logo_Color_RGB.svg" class="img-fluid" alt=""></div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid">
+        <div class="container mt-3">
+            <div class="ro py-4 m">
+                <div class="text-center">
+                    <img src="images/logo.svg" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae sit, quia eius ipsam distinctio
+                        laudantium repellendus quisquam <br>voluptatem voluptas, animi fugiat nam, magnam dolorem atque
+                        officia at illum! Perspiciatis vel maiores amet incidunt.</p>
+                    <hr>
+                    <p>All rights are reserved by Mr. Pranjal Pandey :-</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</htm
