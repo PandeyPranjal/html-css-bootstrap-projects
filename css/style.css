@@ -1,0 +1,223 @@
+*{
+      font-family: "Inter", sans-serif;
+}
+.logo {
+  filter: invert(1);
+}
+.bannerContent h1{
+    font-size: 52px;
+    font-weight: bold;
+}
+.bannerContent h1 span{
+    color: rgb(18, 184, 184);
+}
+header{
+    z-index: 100;
+}
+.bannerContent p{
+    font-size: 22px;
+}
+.bannerContent ul{
+    list-style: none;
+}
+.bannerContent ul li{
+    font-size: 22px;
+    
+}
+.bannerContent ul li i{
+    color: rgb(18, 184, 184);
+}
+.bannerContentBtn button{
+    width: 50%;
+    padding: 10px 8px;
+    border-radius: 10px;
+    border: none;
+
+}
+.bannerContentBtn button:first-child{
+    background: linear-gradient(to right, rgb(18, 184, 184),rgb(3, 102, 102));
+    color: white;
+}
+.bannerForm{
+    padding: 40px;
+    border-radius: 10px;
+}
+.bannerForm h2{
+    font-size: 18px;
+    font-weight: 700;
+}
+.bannerForm button{
+    width: 100%;
+    padding: 10px 0;
+     background: linear-gradient(to right, rgb(18, 184, 184),rgb(3, 102, 102));
+    color: white;
+    border: none;
+}
+.counterSection h1{
+font-size: 30px;
+font-weight: bold;
+color: rgb(18, 184, 184);
+}
+.highlights-section{
+    background-color: rgb(231, 252, 252);
+}
+.highlights-section h2{
+    color: #0A2134;
+    font-size: 34px;
+    font-weight: bold;
+}
+.highlights-section p{
+    font-size: 18px;
+}
+.highlightItems p i{
+font-size: 32px;
+color: rgb(18, 184, 184) ;
+/* margin-left: 15px;
+margin-top: 7px; */
+}
+.marketing-section h1{
+    font-size: 34px ;
+    font-weight: bold;
+}
+.marketing-section p i{
+    box-shadow:5px 5px 5px rgba(0, 0, 0,0.5) ;
+    padding: 12px;
+    color: rgb(18, 184, 184);
+}
+.highlightsButton button{
+    border: none;
+    background-color:rgb(18, 184, 184) ;
+    color: white;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.certification{
+    background-color:  rgb(231, 252, 252); ;
+}
+.certificationContent h1{
+    font-size:32px ;
+    font-weight: bold;
+}
+
+.certificationLinks p i {
+font-size: 38px;
+color: rgb(18, 184, 184);
+}
+.certificationButton{
+    border: none;
+    background-color:rgb(18, 184, 184) ;
+    display: inline;
+    color: white;
+    border-radius: 8px;
+}
+.curriculum h1{
+    font-size: 34px ;
+    font-weight: bold;
+}
+
+.nav-tabs button{
+    color:rgb(18, 184, 184) ;
+    font-weight: bold;
+    border:none ;
+    border-bottom: 2px solid black;
+}
+/* better design the tabbings as add bottom border and remove the border from elsewhere */
+/* check what else modifications are needed for the exact copy */
+.curriculumButton{
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(18, 184, 184) ;
+    color: white;
+}
+.whyDigi{
+    background-color:  rgb(231, 252, 252); 
+}
+.whyDigi h1{
+    font-size: 34px;
+    font-weight: bold;
+}
+.whyDigi p i{
+     box-shadow:5px 5px 5px rgba(0, 0, 0,0.5) ;
+    padding: 12px;
+    margin-top: 5px;
+    margin-left: 8px;
+    color: rgb(18, 184, 184);
+    
+}
+.whyDigi-boxes{
+    padding: 12px;
+}
+.whyButton{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(18, 184, 184) ;
+}
+.what h1{
+     font-size: 34px;
+    font-weight: bold;
+}
+.profile img{
+    height: 85px;
+    width: 85px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 12px;
+    padding: 5px;
+}
+.ReadyClass{
+    background-color: rgb(18, 184, 184) ;
+}
+.ReadyClass h2{
+    color: white;
+    font-size: 34px;
+    font-weight: bold;
+}
+.ReadyClass p{
+    color: white;
+}
+.readyButton button{
+    border: none;
+     border-radius: 8px;
+}
+.faqs button{
+    background-color: rgb(18, 184, 184) ;
+    border: none;
+    border-radius: 8px;
+}
+.faqs{
+    background-color: rgb(231, 252, 252); 
+
+}
+.faqs h2{
+    font-size: 34px;
+    font-weight: bold;
+}
+.companies-logo h2{
+     font-size: 32px;
+    font-weight: bold;
+}
+footer img{
+    filter: invert(1);
+}
+footer{
+    background-color:  rgb(45, 114, 114) ;
+    
+}
+.my-tabbings .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    background-color: rgb(18, 184, 184) ;
+    border-bottom: 2px solid black;
+    color: rgba(0, 0, 0, 0.637);
+    margin-right: 25px;
+
+}
+.listed-items ul{
+    list-style : none;
+
+}
+.listed-items li{
+    margin: 12px;
+}
+.listed-items i{
+    color: rgb(18, 184, 184) ;
+}
